@@ -18,9 +18,10 @@ function convertToUSD(amount) {
 */
 
 function convertToBRL(amount) {
-   let newAmount=(amount - amount*0.01);
-   return newAmount * 5.7;
+  return "£"((amount * 0.99 * 5.7) .toFixed(2));
 }
+
+
 
 /* ======= TESTS - DO NOT MODIFY ===== 
 There are some Tests in this file that will help you work out if your code is working.
